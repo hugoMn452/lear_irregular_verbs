@@ -8,7 +8,7 @@ verbos = ["be","bear","beat","become","begin","bite","blow","break","bring","bui
           "think", "write"]
 Pasado = ["was","bore","beat","became","began", "bit","blew","broke","brought","built","burnt","burst","bought",
           "could","caught","chose","came","cost","cut","dealt","dug", "drank", "ate", "fell", "forgot", "gave", "got", "went",
-          "knew", "leaft", "lost", "made", "paid", "read", "said", "saw", "sold", "slept", "spoke", "took", "told",
+          "knew", "left", "lost", "made", "paid", "read", "said", "saw", "sold", "slept", "spoke", "took", "told",
           "thought", "wrote"]
 Traducción = ["ser","soportar","latir","convertirse","comenzar","morder","soplar","romper","traer algo","construir",
               "quemar","explotar","comprar","poder","pillar","elegir","venir","costar","cortar","negociar","cavar", "beber",
@@ -16,7 +16,12 @@ Traducción = ["ser","soportar","latir","convertirse","comenzar","morder","sopla
               "leer", "decir", "ver", "vender", "dormir", "hablar", "tomar", "contar, decir", "pensar", "escribir"]
 
 st.set_page_config(page_title="Past Simple - Group 1. ", page_icon="📖")
-st.title("U.M.R.P.S.F.X.CH. - CARRERA DE IDIOMAS - ICT's Proffesor Mike Ticona")
+st.title("U.M.R.P.S.F.X.CH. - CARRERA DE IDIOMAS)
+st.subheader("ICT's - Proffesor Mike Ticona")
+st.subheader("Group 1 - PAST SIMPLE")
+st.subheader("Harold Choque")
+st.subheader("Salvador Claros")
+st.subheader("Hugo Alconini")
 if 'indice' not in st.session_state:
     st.session_state.indice = random.randint(0, len(verbos)-1)
 if 'aciertos' not in st.session_state:
