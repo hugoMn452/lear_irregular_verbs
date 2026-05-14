@@ -16,8 +16,9 @@ Traducción = ["ser","soportar","latir","convertirse","comenzar","morder","sopla
               "leer", "decir", "ver", "vender", "dormir", "hablar", "tomar", "contar, decir", "pensar", "escribir"]
 
 st.set_page_config(page_title="Past Simple - Group 1. ", page_icon="📖")
-st.title("U.M.R.P.S.F.X.CH. - CARRERA DE IDIOMAS ")
-st.subheader(" ICT's - Professor Mike Ticona")
+st.title("U.M.R.P.S.F.X.CH. - CARRERA DE IDIOMAS - PAST TENSE (ONLY AFFIRMATIVE CASE)")
+st.subheader(" ICT's - PROFESSOR MIKE TICONA")
+st.markdown("### STUDENTS:")
 st.markdown("### Harold Choque")
 st.markdown("### Hugo Alconini")
 st.markdown("### Salvador Claros")
