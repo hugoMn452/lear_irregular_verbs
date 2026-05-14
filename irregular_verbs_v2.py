@@ -16,12 +16,9 @@ Traducción = ["ser","soportar","latir","convertirse","comenzar","morder","sopla
               "leer", "decir", "ver", "vender", "dormir", "hablar", "tomar", "contar, decir", "pensar", "escribir"]
 
 st.set_page_config(page_title="Past Simple - Group 1. ", page_icon="📖")
-st.title("U.M.R.P.S.F.X.CH. - CARRERA DE IDIOMAS)
-st.subheader("ICT's - Proffesor Mike Ticona")
-st.subheader("Group 1 - PAST SIMPLE")
-st.subheader("Harold Choque")
-st.subheader("Salvador Claros")
-st.subheader("Hugo Alconini")
+st.title("U.M.R.P.S.F.X.CH. - CARRERA DE IDIOMAS - ICT's - Proffesor Mike Ticona)
+st.subheader("Students:")
+st.markdown("### Hugo Alconini")
 if 'indice' not in st.session_state:
     st.session_state.indice = random.randint(0, len(verbos)-1)
 if 'aciertos' not in st.session_state:
